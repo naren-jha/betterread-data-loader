@@ -1,3 +1,9 @@
+
+
+datadump.location:
+  author: /Users/narendrajha/Downloads/authors.txt
+  works: /Users/narendrajha/Downloads/author-works.txt
+
 spring:
   data:
     cassandra:
