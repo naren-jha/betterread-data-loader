@@ -28,7 +28,6 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 @SpringBootApplication
-@EnableConfigurationProperties(DataStaxAstraProperties.class)
 @Slf4j
 public class BetterreadDataLoaderApplication {
 
