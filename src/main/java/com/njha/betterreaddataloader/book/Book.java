@@ -13,6 +13,13 @@ import org.springframework.data.cassandra.core.mapping.Table;
 import java.time.LocalDate;
 import java.util.List;
 
+/**
+ * This class represents books in our system. The partitioning is done on book_id because
+ * we want to be able to fetch book information by their id. i.e., given a book_id, we should be
+ * able to fetch the book info fast and display it on book detail page to users.
+ * So here Cassandra is used in a sort of key-value storage fashion.
+ * mapping is "book_id -> BookObject"
+ */
 @Table(value = "book_by_id")
 @Setter
 @Getter
