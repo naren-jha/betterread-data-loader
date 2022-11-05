@@ -1,6 +1,8 @@
 # betterread-data-loader
 
-https://youtu.be/LxVGFBRpEFM?list=PL9MzuY4_smVbXddmeo8WU-OuvQMlRcSDx
+[Youtube Playlist](https://youtu.be/LxVGFBRpEFM?list=PL9MzuY4_smVbXddmeo8WU-OuvQMlRcSDx)
+
+[Design Doc](https://drive.google.com/file/d/13FBXQvcFNA_kmeAHeVjPMQ5xwrpDZM-g/view?usp=sharing)
 
 Spring boot app for loading data into remotely hosted Cassandra cluster on [datastax](https://astra.datastax.com/)
 
@@ -9,4 +11,3 @@ Spring boot app for loading data into remotely hosted Cassandra cluster on [data
 We can run multiple instances of this application and do parallel processing to upload data faster - https://youtu.be/hJLtsn2aSr4?list=PL9MzuY4_smVbXddmeo8WU-OuvQMlRcSDx
 
 
-[Design Doc](https://drive.google.com/file/d/13FBXQvcFNA_kmeAHeVjPMQ5xwrpDZM-g/view?usp=sharing)
